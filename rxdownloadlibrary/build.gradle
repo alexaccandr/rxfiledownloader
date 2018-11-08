@@ -42,10 +42,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    compile 'com.google.code.gson:gson:2.7'
+    implementation 'com.google.code.gson:gson:2.7'
 
 
-    compile 'org.slf4j:slf4j-api:1.7.25'
+    implementation 'org.slf4j:slf4j-api:1.7.25'
 }
 repositories {
     mavenCentral()
